@@ -1,5 +1,5 @@
 {
-  "homepage": "milanoo7.github.io/CoolResume",
+  "homepage": "https://milanoo7.github.io/CoolResume",
   "name": "milanoo7.github.io",
   "version": "0.1.0",
   "private": true,
@@ -19,7 +19,7 @@
     "predeploy": "npm run build",
     "start": "node fetch.js && react-scripts start",
     "build": "node fetch.js && react-scripts build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -b main -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "format": "prettier --write \"./**/*.{js,css,json}\""
